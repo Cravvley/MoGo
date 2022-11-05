@@ -14,6 +14,8 @@ $color-grey-light: #e5e5e5;
 $color-white: #fff;
 $color-black: #000;
 
+$svg-filter-color: brightness(0) saturate(100%) invert(84%) sepia(27%) saturate(617%)
+  hue-rotate(355deg) brightness(105%) contrast(97%);
 //GRID
-$grid-column-gap: 20px;
-$grid-row-gap: 50px;
+$grid-column-gap: 40px;
+$grid-row-gap: 60px;

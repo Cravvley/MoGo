@@ -2,6 +2,10 @@
   text-align: center !important;
 }
 
+.u-margin-bottom-extra-tiny {
+  margin-bottom: 5px !important;
+}
+
 .u-margin-bottom-tiny {
   margin-bottom: 10px !important;
 }
@@ -49,9 +53,19 @@
   padding: 5px 10px !important;
 }
 
+.u-section-width-medium {
+  width: 70%;
+}
+
 .u-line-divider {
   display: block;
   width: 120px;
   border-bottom: 4px $gradient-color-secondary-dark solid;
   margin: 0 auto;
+}
+
+.svg-filter {
+  &:hover {
+    filter: $svg-filter-color;
+  }
 }
