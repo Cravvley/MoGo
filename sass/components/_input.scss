@@ -1,0 +1,8 @@
+.input {
+  margin: 0 !important;
+  box-sizing: border-box;
+  border: 1px solid $color-grey-light;
+  &--display-flex {
+    flex-grow: 2;
+  }
+}

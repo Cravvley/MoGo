@@ -1,0 +1,47 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey;
+}
+
+.heading {
+  color: $color-white;
+
+  &--main {
+    display: block;
+    font-size: $large-font-size;
+    font-weight: 700;
+    padding: 0 180px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &--small {
+      font-size: 35px;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: $big-font-size;
+    font-family: 'Kaushan Script', cursive;
+    &--small {
+      font-size: 20px;
+    }
+  }
+  &--black {
+    color: $color-black;
+  }
+}
+
+.important-text {
+  color: $color-black;
+  &--secondary-gradient {
+    color: $gradient-color-secondary-dark;
+  }
+}
+
+.text-box {
+  width: 45%;
+  margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 2px 20px;
+    border: 2px $color-white solid;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: $default-font-size;
+    color: $color-white;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: center;
+  }
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-grey;
+  }
+  &--secondary {
+    background-color: $color-primary;
+    &:hover {
+      background-color: $gradient-color-secondary-dark;
+      color: white;
+    }
+  }
+  &--footer {
+    border: 0px $color-white solid !important;
+    border-right: 0px;
+    border-radius: 0px !important;
+  }
+
+  &--display-flex {
+    flex-grow: 1;
+  }
+}

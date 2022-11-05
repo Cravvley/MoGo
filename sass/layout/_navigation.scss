@@ -1,0 +1,32 @@
+.navigation {
+  &__list {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__item {
+    margin: 10px;
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      display: inline-block;
+      font-weight: 300;
+      color: $color-white;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: $default-font-size;
+    }
+
+    &:hover,
+    &:active {
+      background-position: 100%;
+      color: $gradient-color-secondary-light;
+      padding-bottom: 2px;
+      border-bottom: 1px solid $gradient-color-secondary-light;
+    }
+  }
+}
