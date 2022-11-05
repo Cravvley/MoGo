@@ -6,10 +6,21 @@
   box-sizing: inherit;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 html {
   font-size: 62.5%; // 62.5% is equal to 10px
 }
 
 body {
   box-sizing: border-box;
+  padding: 50px;
+  position: relative;
+
+  @media (max-width: 991px) {
+    padding: 0;
+  }
 }

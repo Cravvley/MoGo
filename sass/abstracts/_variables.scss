@@ -1,9 +1,13 @@
-//FONT-SIZE
+//FONT-SIZE 992px
 $default-font-size: 12px;
 $small-font-size: 16px;
 $medium-font-size: 28px;
 $big-font-size: 70px;
 $large-font-size: 140px;
+
+//FOR  resolutions below 1024px
+$big-font-size-small-resolution: 35px;
+$large-font-size-small-resolution: 70px;
 
 // COLORS
 $color-primary: #95e1d3;
@@ -17,5 +21,6 @@ $color-black: #000;
 $svg-filter-color: brightness(0) saturate(100%) invert(84%) sepia(27%) saturate(617%)
   hue-rotate(355deg) brightness(105%) contrast(97%);
 //GRID
-$grid-column-gap: 40px;
+$grid-column-gap: 30px;
 $grid-row-gap: 60px;
+$grid-row-gap-small: 30px;

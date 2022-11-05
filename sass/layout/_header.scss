@@ -28,4 +28,8 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  @media (max-width: 991px) {
+    height: 100vh;
+  }
 }

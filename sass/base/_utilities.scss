@@ -53,15 +53,15 @@
   padding: 5px 10px !important;
 }
 
-.u-section-width-medium {
-  width: 70%;
-}
-
 .u-line-divider {
   display: block;
-  width: 120px;
+  width: 80px;
   border-bottom: 4px $gradient-color-secondary-dark solid;
   margin: 0 auto;
+}
+
+.u-text-uppercase {
+  text-transform: uppercase;
 }
 
 .svg-filter {
