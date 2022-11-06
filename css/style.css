@@ -195,7 +195,9 @@ body {
     width: auto; }
 
 .card-hover-effect {
-  position: relative; }
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
   .card-hover-effect:hover:after {
     content: '';
     position: absolute;

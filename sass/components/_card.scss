@@ -1,5 +1,8 @@
 .card-hover-effect {
   position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
   &:hover:after {
     content: '';
     position: absolute;
