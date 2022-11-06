@@ -53,6 +53,10 @@ body {
 .text-box {
   width: 45%;
   margin: 0 auto;
+
+  &--medium {
+    width: 80%;
+  }
   &--big {
     margin-top: 15px;
     width: 100%;

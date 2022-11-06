@@ -17,22 +17,6 @@
       }
     }
 
-    &__item {
-      display: flex;
-      text-align: center;
-    }
-
-    &__text-box {
-      text-align: left;
-      padding: 0 20px;
-      margin: 0 auto;
-    }
-
-    &__icon {
-      height: 30px;
-      width: auto;
-    }
-
     &__item--1 {
       grid-area: 1 / 1 / 2 / 2;
       @media (max-width: 1024px) {
